@@ -1,6 +1,8 @@
 #include <iostream>
 
+#include "block.h"
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << twochains::Block::CalculateHash("Testing") << '\n';
     return 0;
 }
